@@ -11,13 +11,38 @@
         <h1>Calculator BMI</h1>
     </header>
     <main>
+       <!-- Form Display -->
         <div class="main-container">
-            <div class="container-item">
+            <div class="container-item1">
                 <h2>Form BMI</h2>
-                <p>Berat Badan Ideal adalah...</p>
+                <p class="container-sub">Berat Badan Ideal adalah...</p>
+                <section class="container-form">
+                    <div>
+                        <label>Jenis Kelamin</label><br />
+                        <input type="radio" name="sex" id="sex-man">
+                            <label for="sex-man">Pria</label>
+                        <input type="radio" name="sex" id="sex-female">
+                            <label for="sex-female">Wanita</label>
+                    </div>
+                    <div>
+                        <label>Berat Badan (Kg)</label><br />
+                        <input type="number" class="form-item">
+                    </div>
+                    <div>
+                        <button type="button" id="calculate-button">Hitung BMI</button>
+                        <button type="button">Reset</button>    
+                    </div>
+                </section>
             </div>
-            <div class="container-item">
+      <!-- Result Display -->
+            <div class="container-item2">
                 <h2>Result</h2>
+                <section class="container-result">
+                    <h4>Berat Badan Lebih</h4>
+                    <h1>0</h1>
+                    <h4>Anda Memiliki Berat Badan Berlebih</h4>
+                    <button type="button">Download Hasil BMI</button>
+                </section>
             </div>
 
         </div>

@@ -6,11 +6,63 @@ header> h1 {
     display: flex;
 }
 
-.container-item {
-    border: 1px solid;
+/* Display Style */
+.container-item1 {
     width: 100%;
+    padding: 24px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 8px;
+}
+
+.container-item2 {
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 8px;
 }
 
 .container-item{
     text-align: center;
+}
+
+.container-result{
+    text-align: center;
+    background-color: lightblue;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    border-radius: 16px;
+}
+
+.form-item{
+    height: 24px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: burlywood;
+}
+
+.container-form>div{
+    padding: 8px;
+}
+
+.container-form{
+    text-align: left;
+    background-color: lightcyan;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+button{
+    border: 0px;
+    height: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: lightgreen;
+    border-radius: 8px;
+}
+
+#calculate-button{
+    background-color: coral;
+    color: white;
 }
