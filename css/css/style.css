@@ -1,0 +1,16 @@
+header> h1 { 
+    text-align: center;
+}
+
+.main-container{
+    display: flex;
+}
+
+.container-item {
+    border: 1px solid;
+    width: 100%;
+}
+
+.container-item{
+    text-align: center;
+}
