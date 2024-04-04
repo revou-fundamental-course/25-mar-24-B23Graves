@@ -2,6 +2,7 @@
 
 <head>
     <title>Calculator BMI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/css/style.css"
 
 </head>
@@ -13,7 +14,7 @@
     <main>
        <!-- Form Display -->
         <div class="main-container">
-            <div class="container-item1">
+            <div class="container-item">
                 <h2>Form BMI</h2>
                 <p class="container-sub">Berat Badan Ideal adalah...</p>
                 <section class="container-form">
@@ -26,16 +27,17 @@
                     </div>
                     <div>
                         <label>Berat Badan (Kg)</label><br />
-                        <input type="number" class="form-item">
+                        <input type="number" class="form-item" id="weight-input">
                     </div>
                     <div>
-                        <button type="button" id="calculate-button">Hitung BMI</button>
+                        <button type="button" id="calculate-button" onclick="calculate()" >Hitung BMI</button>
                         <button type="button">Reset</button>    
                     </div>
                 </section>
             </div>
+
       <!-- Result Display -->
-            <div class="container-item2">
+            <div class="container-item">
                 <h2>Result</h2>
                 <section class="container-result">
                     <h4>Berat Badan Lebih</h4>
@@ -44,8 +46,42 @@
                     <button type="button">Download Hasil BMI</button>
                 </section>
             </div>
+            </div>
 
-        </div>
+            <!-- Feature Description -->
+            <div id ="text">
+                    <div>
+                        
+                            <header>
+                                <h1 style="text-align: left;">Keunggulan fitur</h1>
+                                <ol>
+                                    <li>Menghitung berat badan</li>
+                                    <li>Menentukan kategori berat badan ideal atau tidak</li>
+                                    <li>Mempersiapkan program penurunan berat badan</li>
+                                </ol>
+                            </header>
+                        
+                    </div>
+
+            <!-- Feature Description -->
+            </div>
+                <section>
+                    <header>
+                        <p>Kalkulator ini hanya boleh digunakan oleh orang dewasa atau remaja</p>
+                    </header>
+                </section>
+            </div>
+
+                        <!-- Result Description -->
+                        <section>
+                            <header>
+                                <h4 style="text-align: left;">Hasil BMI Usia 0</h4>
+                                <p>Anda berada dalam kategori obesitas...</p>
+                                <p>Cara terbaik untuk menurunkan berat badan adalah puasa!</p>
+                            </header>
+                        </section>
+                    </div>
+
     </main>
     <footer></footer>
     <script src="js/script.js"></script>

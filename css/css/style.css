@@ -6,21 +6,19 @@ header> h1 {
     display: flex;
 }
 
-/* Display Style */
-.container-item1 {
-    width: 100%;
-    padding: 24px;
-    text-align: center;
-    background-color: aqua;
-    border-radius: 8px;
+body{
+    background-image: url(https://i.pinimg.com/236x/c0/9f/3a/c09f3a231467313aba336ca07a5f5fe1.jpg);
+    background-size: contain;
 }
 
-.container-item2 {
+/* Display Style */
+.container-item {
     width: 100%;
     padding: 24px;
     text-align: center;
     background-color: aqua;
-    border-radius: 8px;
+    border-radius: 30px;
+    align-items: center;
 }
 
 .container-item{
@@ -66,3 +64,14 @@ button{
     background-color: coral;
     color: white;
 }
+
+#text {
+    display: flex;
+}
+
+@media only screen and (max-width: 480px) {
+    .main-container {
+        flex-direction: column;
+    }
+}
+
