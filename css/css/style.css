@@ -8,7 +8,7 @@ header> h1 {
 
 body{
     background-image: url(https://i.pinimg.com/236x/c0/9f/3a/c09f3a231467313aba336ca07a5f5fe1.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 
 /* Display Style */
@@ -16,18 +16,18 @@ body{
     width: 100%;
     padding: 24px;
     text-align: center;
-    background-color: aqua;
-    border-radius: 30px;
     align-items: center;
+    border-radius: 30px;
 }
 
-.container-item{
+.container-item>h2{
     text-align: center;
 }
 
-.container-result{
+.container-result,
+.container-form{
     text-align: center;
-    background-color: lightblue;
+    background-color: aqua;
     padding-top: 8px;
     padding-bottom: 24px;
     border-radius: 16px;
@@ -35,9 +35,9 @@ body{
 
 .form-item{
     height: 24px;
-    border: 0px;
+    border: 8px;
     border-radius: 8px;
-    background-color: burlywood;
+    background-color: white;
 }
 
 .container-form>div{
@@ -46,7 +46,7 @@ body{
 
 .container-form{
     text-align: left;
-    background-color: lightcyan;
+    background-color: aqua;
     padding: 24px;
     border-radius: 16px;
 }
